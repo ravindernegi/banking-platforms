@@ -16,5 +16,11 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ]
 }
