@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:gateway": "pnpm --filter api-gateway start:dev",
+    "dev:auth": "pnpm --filter auth-service start:dev"
   },
   "keywords": [],
   "author": "",
