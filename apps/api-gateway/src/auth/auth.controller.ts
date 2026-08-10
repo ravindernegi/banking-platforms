@@ -4,6 +4,6 @@ import { Controller, Post } from '@nestjs/common';
 export class AuthController {
   @Post('login')
   login() {
-    return { message: 'Data get' }; // tokens never touch the JSON body
+    return { message: 'Data get', namme: process.env.Data }; // tokens never touch the JSON body
   }
 }
