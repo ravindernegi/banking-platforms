@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:gateway": "pnpm --filter api-gateway start:dev",
-    "dev:auth": "pnpm --filter auth-service start:dev"
+    "dev:auth": "pnpm --filter auth-service start:dev",
+    "db:migrate": "pnpm --filter database-client prisma migrate dev",
+    "db:generate": "pnpm --filter database-client prisma generate && pnpm --filter database-client build"
   },
   "keywords": [],
   "author": "",
