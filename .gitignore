@@ -4,6 +4,7 @@ node_modules/
 # Environment
 .env
 .env.*
+!.env.example
 
 # Build output
 dist/
@@ -27,3 +28,6 @@ Thumbs.db
 
 # Docker
 *.pid
+
+# Prisma generated client
+packages/database-client/generated/
