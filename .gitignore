@@ -13,8 +13,7 @@ coverage/
 # NestJS
 *.tsbuildinfo
 
-# IDE
-.vscode/
+
 
 # OS
 .DS_Store
